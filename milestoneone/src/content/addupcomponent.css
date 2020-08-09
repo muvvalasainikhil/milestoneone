@@ -1,0 +1,43 @@
+.add-form {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  z-index: 15;
+  top: 30%;
+  left: 65%;
+  margin: -100px 0 0 -150px;
+  background-color: paleturquoise;
+  border: 1px solid;
+  padding: 10px;
+  /* box-shadow: 5px 10px #888888; */
+}
+.add-form h1 {
+  text-align: center;
+}
+.add-form form {
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 250px;
+  /* border:1px solid;*/
+}
+.add-form table td {
+  padding: 10px;
+}
+.add-form form input {
+  border-radius: 10px;
+}
+.add-form form input:focus {
+  border-radius: 10px;
+}
+.add-form button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 10px;
+}

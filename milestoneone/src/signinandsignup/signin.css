@@ -1,0 +1,108 @@
+form a {
+  font-size: 10px;
+}
+.center form {
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 250px;
+  /* border:1px solid;*/
+}
+.error {
+  font-family: cursive;
+  font-variant: small-caps;
+  font-style: italic;
+
+  color: red;
+}
+.error1 {
+  font-family: cursive;
+  font-variant: small-caps;
+  font-style: italic;
+  color: red;
+  text-align: center;
+}
+.center h1 {
+  text-align: center;
+}
+.center table td {
+  padding: 10px;
+}
+
+.center form input:focus {
+  /* border-radius: 10px; */
+  font-family: cursive;
+  font-variant: small-caps;
+  font-style: italic;
+}
+.center button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: cursive;
+}
+@media screen and (max-width: 600px) {
+  .center {
+    width: 400px;
+  }
+}
+.center {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  z-index: 15;
+  top: 40%;
+  left: 65%;
+  margin: -100px 0 0 -150px;
+  background-color: paleturquoise;
+  border: 1px solid;
+  padding: 10px;
+  font-family: cursive;
+  /* box-shadow: 5px 10px #888888; */
+}
+form a {
+  font-size: 10px;
+}
+.center form {
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 250px;
+  font-family: cursive;
+  /* border:1px solid;*/
+}
+.center h1 {
+  text-align: center;
+  font-family: cursive;
+}
+.center table td {
+  padding: 10px;
+  font-family: cursive;
+}
+/* .center form input {
+  border-radius: 10px;
+} */
+.center form input:focus {
+  border-radius: 0px;
+  font-family: cursive;
+}
+.center button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: transform 0.2s;
+  transform: scale(1.2);
+  font-family: cursive;
+}

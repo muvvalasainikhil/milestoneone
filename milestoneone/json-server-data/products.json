@@ -1,0 +1,78 @@
+{
+  "allProducts": [
+    {
+      "name": "Macbook Air",
+      "price": "55000",
+      "stock": "28",
+      "description": " Macbook Air 13.3 inch",
+      "category": "Electronics",
+      "imageUrl": "",
+      "id": 1
+    },
+    {
+      "name": "Carrot",
+      "price": "25",
+      "stock": "22",
+      "description": " carrot 25rs per KG ",
+      "category": "Vegetables",
+      "imageUrl": "",
+      "id": 2
+    }
+  ],
+  "userDetails": [
+    {
+      "id": 1,
+      "username": "abhi16897",
+      "email": "saiabhishek1997@gmail.com",
+      "password": "saiabhi1"
+    },
+    {
+      "username": "abhi16898",
+      "email": "saiabhishek0@gmail.com",
+      "password": "saiabhi1",
+      "id": 2
+    },
+    {
+      "username": "abhi16895",
+      "email": "saiabhishek12@gmail.com",
+      "password": "saiabhi1",
+      "id": 3
+    },
+    {
+      "username": "Nikhil",
+      "email": "muvvalasainikhil@gmail.com",
+      "password": "Nikhil@21",
+      "id": 4
+    },
+    {
+      "username": "hai",
+      "email": "sai@gmail.com",
+      "password": "jj",
+      "id": 5
+    },
+    {
+      "username": "Joe",
+      "email": "jyothi@gmail.com",
+      "password": "joe",
+      "id": 6
+    },
+    {
+      "username": "reddy",
+      "email": "reddy@gmail.com",
+      "password": "reddy",
+      "id": 7
+    },
+    {
+      "username": "prafful",
+      "email": "prafful@gmail.com",
+      "password": "prafful",
+      "id": 8
+    },
+    {
+      "username": "Nik1",
+      "email": "nik@gmail.com",
+      "password": "nik",
+      "id": 9
+    }
+  ]
+}
