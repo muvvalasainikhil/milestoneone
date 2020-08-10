@@ -14,9 +14,36 @@
       "price": "25",
       "stock": "44",
       "description": " carrot 25rs per KG ",
-      "category": "Vegetables",
-      "imageUrl": "macbook.jpg",
+      "category": "Fruits",
+      "imageUrl": "",
       "id": 2
+    },
+    {
+      "name": "B&B Organics Polished White Urad Dal (Whole)",
+      "price": "22",
+      "stock": "25",
+      "description": "dfdsfds",
+      "category": "Fruits",
+      "imageUrl": "macbook.jpg",
+      "id": 3
+    },
+    {
+      "name": "Carrot",
+      "price": "24",
+      "stock": "22",
+      "description": "gggggg",
+      "category": "Fruits",
+      "imageUrl": "",
+      "id": 4
+    },
+    {
+      "name": "Carrot",
+      "price": "22",
+      "stock": "29",
+      "description": "hello",
+      "category": "Fruits",
+      "imageUrl": "",
+      "id": 5
     }
   ],
   "userDetails": [
@@ -85,6 +112,12 @@
       "email": "praffuldaga@gmail.com",
       "password": "prafful",
       "id": 11
+    },
+    {
+      "username": "322",
+      "email": "sd@gmail.com",
+      "password": "aa",
+      "id": 12
     }
   ]
 }

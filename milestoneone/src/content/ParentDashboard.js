@@ -1,6 +1,6 @@
 import React from "react";
 import DashboardContent from "./DashboardContent";
-import { Pie, Bar } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import "./parentdahsboard.css";
 import axios from "axios";
 class ParentDashboard extends React.Component {
@@ -18,39 +18,41 @@ class ParentDashboard extends React.Component {
     }
   }
   dashboardform = (category) => {
-    axios.get("http://localhost:3000/allProduct/?q=" + category).then((res) => {
-      let titles = [];
-      var stocks = [];
-      console.log(res.data);
-      this.setState({ selectedData: res.data });
-      this.state.selectedData.map((cat) => {
-        return titles.push(cat.name);
+    axios
+      .get("http://localhost:3000/allProducts/?q=" + category)
+      .then((res) => {
+        let titles = [];
+        var stocks = [];
+        console.log(res.data);
+        this.setState({ selectedData: res.data });
+        this.state.selectedData.map((cat) => {
+          return titles.push(cat.name);
+        });
+        this.state.selectedData.map((cat) => {
+          return stocks.push(parseInt(cat.stock));
+        });
+        console.log(titles);
+        this.setState({
+          charData: {
+            labels: [...titles],
+            datasets: [
+              {
+                label: "Stock Availability",
+                data: [...stocks],
+                backgroundColor: [
+                  "rgba(225,99,132,0.6)",
+                  "rgba(225,206,86,0.6)",
+                  "rgba(54,162,235,0.6)",
+                  "rgba(75,192,192,0.6)",
+                  "rgba(153,102,255,0.6)",
+                  "rgba(225,159,64,0.6)",
+                  "rgba(225,99,132,0.6)",
+                ],
+              },
+            ],
+          },
+        });
       });
-      this.state.selectedData.map((cat) => {
-        return stocks.push(parseInt(cat.stock));
-      });
-      console.log(titles);
-      this.setState({
-        charData: {
-          labels: [...titles],
-          datasets: [
-            {
-              label: "Stock Availability",
-              data: [...stocks],
-              backgroundColor: [
-                "rgba(225,99,132,0.6)",
-                "rgba(225,206,86,0.6)",
-                "rgba(54,162,235,0.6)",
-                "rgba(75,192,192,0.6)",
-                "rgba(153,102,255,0.6)",
-                "rgba(225,159,64,0.6)",
-                "rgba(225,99,132,0.6)",
-              ],
-            },
-          ],
-        },
-      });
-    });
     console.log(category);
     console.log(this.state.charData);
   };
@@ -64,7 +66,7 @@ class ParentDashboard extends React.Component {
         </div>
         <div>
           <h1>Chart</h1>
-          <Pie
+          <Bar
             data={this.state.charData}
             height={80}
             options={{
@@ -77,7 +79,7 @@ class ParentDashboard extends React.Component {
                 position: "top",
               },
             }}
-          ></Pie>
+          ></Bar>
         </div>
       </div>
     );
