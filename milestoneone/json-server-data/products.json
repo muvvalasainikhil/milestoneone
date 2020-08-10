@@ -1,49 +1,31 @@
 {
   "allProducts": [
     {
-      "name": "Macbook Air",
-      "price": "55000",
-      "stock": "28",
-      "description": " Macbook Air 13.3 inch",
+      "name": "Mi 4A PRO 80 cm (32) HD Ready",
+      "price": "12499",
+      "stock": "20",
+      "description": " LED Smart Android TV With Google Data Saver",
       "category": "Electronics",
-      "imageUrl": "",
+      "imageUrl": "Tv.jpeg",
       "id": 1
     },
     {
-      "name": "Carrot",
-      "price": "25",
-      "stock": "44",
-      "description": " carrot 25rs per KG ",
-      "category": "Fruits",
-      "imageUrl": "",
+      "name": "Canon EOS 3000D DSLR Camera ",
+      "price": "22499",
+      "stock": "22",
+      "description": "Single Kit with 18-55 lens (16 GB Memory Card & Carry Case)  (Black)",
+      "category": "Electronics",
+      "imageUrl": "camera.jpeg",
       "id": 2
     },
     {
-      "name": "B&B Organics Polished White Urad Dal (Whole)",
+      "name": "nikhil",
       "price": "22",
-      "stock": "25",
-      "description": "dfdsfds",
-      "category": "Fruits",
-      "imageUrl": "macbook.jpg",
+      "stock": "16",
+      "description": "hai",
+      "category": "Electronics",
+      "imageUrl": "background.jpg",
       "id": 3
-    },
-    {
-      "name": "Carrot",
-      "price": "24",
-      "stock": "22",
-      "description": "gggggg",
-      "category": "Fruits",
-      "imageUrl": "",
-      "id": 4
-    },
-    {
-      "name": "Carrot",
-      "price": "22",
-      "stock": "29",
-      "description": "hello",
-      "category": "Fruits",
-      "imageUrl": "",
-      "id": 5
     }
   ],
   "userDetails": [

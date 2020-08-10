@@ -89,6 +89,9 @@ class Home extends React.Component {
             onChange={this.searchProducts}
           />
         </div>
+        <div>
+          <h1>Welcome {localStorage.getItem("username")}!</h1>
+        </div>
         <div>{this.renderall()}</div>
       </div>
     );

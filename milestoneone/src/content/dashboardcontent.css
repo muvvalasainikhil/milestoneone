@@ -19,11 +19,11 @@
 }
 .dashboard-form form select {
   width: 150px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
-.dashboard-form form input:focus {
+/* .dashboard-form form input:focus {
   border-radius: 10px;
-}
+} */
 .dashboard-form button {
   background-color: blue;
   border: none;

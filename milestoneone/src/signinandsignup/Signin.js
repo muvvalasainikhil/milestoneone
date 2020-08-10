@@ -50,6 +50,7 @@ class Signin extends React.Component {
               res.data[0].password === this.state.password)
           ) {
             localStorage.setItem("loggedIn", true);
+            localStorage.setItem("username", this.state.username);
             this.props.history.push("/home");
           } else {
             this.setState({ loginStatus: true });
