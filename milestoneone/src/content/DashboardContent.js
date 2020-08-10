@@ -13,6 +13,7 @@ class DashboardContent extends React.Component {
       this.props.history.push("/");
     }
   }
+  // ss
   onchangeSelcet = (e) => {
     console.log(e.target.value);
     this.setState({ selectedCategory: e.target.value });
