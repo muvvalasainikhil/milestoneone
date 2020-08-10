@@ -12,7 +12,7 @@
     {
       "name": "Carrot",
       "price": "25",
-      "stock": "22",
+      "stock": "44",
       "description": " carrot 25rs per KG ",
       "category": "Vegetables",
       "imageUrl": "",
@@ -22,19 +22,19 @@
   "userDetails": [
     {
       "id": 1,
-      "username": "abhi16897",
-      "email": "saiabhishek1997@gmail.com",
-      "password": "saiabhi1"
+      "username": "sainikhil",
+      "email": "sainikhil@gmail.com",
+      "password": "sai1"
     },
     {
-      "username": "abhi16898",
-      "email": "saiabhishek0@gmail.com",
-      "password": "saiabhi1",
+      "username": "sainikhil2104",
+      "email": "muvvala@gmail.com",
+      "password": "sai2",
       "id": 2
     },
     {
-      "username": "abhi16895",
-      "email": "saiabhishek12@gmail.com",
+      "username": "sainikhik1997",
+      "email": "sai@gmail.com",
       "password": "saiabhi1",
       "id": 3
     },
@@ -73,6 +73,12 @@
       "email": "nik@gmail.com",
       "password": "nik",
       "id": 9
+    },
+    {
+      "username": "Sai1",
+      "email": "sain@gmail.com",
+      "password": "sai",
+      "id": 10
     }
   ]
 }
