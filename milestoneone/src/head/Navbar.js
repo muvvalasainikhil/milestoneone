@@ -37,6 +37,7 @@ class Nav extends React.Component {
         <Link to="/addproduct">Add Product</Link>
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/home">Home</Link>
+
         {/* <Link to="/About">About</Link> */}
       </div>
     );

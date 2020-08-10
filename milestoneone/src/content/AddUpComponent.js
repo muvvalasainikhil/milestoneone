@@ -12,7 +12,7 @@ class AddUpComponent extends React.Component {
       description: "",
       category: "",
       imageUrl: "",
-
+      // ss
       nameError: "",
       priceError: "",
       stockError: "",
